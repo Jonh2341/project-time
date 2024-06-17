@@ -1,0 +1,425 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	min-width: 1500px;
+	min-height: 1500px;
+	margin: 0 auto;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1160px;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 87px;
+	margin-bottom: 40px;
+}
+
+.header-block{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-block:last-child{
+	display: flex;
+	width: 99px;
+	height: 21px;
+	align-items: center;
+	flex-shrink: 0;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 103px;
+	height: 26px;
+}
+
+.nav-text{
+	text-decoration: none;
+	color: #555248;
+}
+
+.list{
+	list-style-type: none;
+	margin-right: 65px;
+}
+
+.list:last-child{
+	list-style-type: none;
+	margin-right: 0px;
+}
+
+.header-icons{
+	width: 19px;
+	height: 19px;
+	flex-shrink: 0;
+}
+
+.perehidnyj-block{
+	margin-top: 0px;
+	width: 324px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+}
+
+.later-arrow{
+	width: 4px;
+	height: 7px;
+	color: #BDB9B5;
+	margin-right: 13px;
+}
+
+.perehidnyj-block-a{
+	color: #B3B3B3;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin-right: 13px;
+}
+
+.mans-watch{
+	color: #555248;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.sec-one{
+	height: 1141px;
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.settings{
+	display: flex;
+	flex-direction: column;
+	width: 326px;
+}
+
+.title-of-settings{
+	color: #1B1A17;
+	font-family: Playfair Display;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.settings-settings{
+	width: 230.075px;
+	height: 523px;
+}
+
+.cost-brand{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -20px;
+}
+
+.line{
+	border: 1px solid;
+	width: 10px;
+}
+
+.cost-line,.line-structure{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.main-line-of-cost{
+	position: absolute;
+	border: 1px solid #D4D4D4;
+	height: 0px;
+	width: 230px;
+}
+
+.circle-wrap{
+	display: flex;
+	align-items: start;
+	justify-content: end;
+	flex-direction: column;
+	height: 87px;
+}
+
+div.circle-wrap:first-child{
+	align-items: end;
+}
+
+.circle{
+	width: 10px;
+	height: 10px;
+	margin-bottom: 4px;
+	border: 1px solid;
+	border-radius: 100%;
+}
+
+.cost-sale{
+	margin-top: 0px;
+}
+
+.line-of-structure{
+	width: 119.782px;
+	border: 1px solid black;
+}
+
+.text{
+	color: #6F6E6D;
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 0%; /* 0px */
+	text-transform: capitalize;
+}
+
+.brand-of-watch-wrap{
+	margin-top: 28px;
+}
+
+.cost-p{
+	font-size: 13px;
+}
+
+.filter{
+	margin-top: 30px;
+	width: 100%;
+	height: 65px;
+	border: 2px solid grey;
+	background-color: white;
+}
+
+.filter:hover{
+	background-color: grey;
+	color: white;
+}
+
+.mouse{
+	cursor: pointer;
+}
+
+.watch-catalog{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+.top-side-w-catalog{
+	display: flex;
+	align-items: center;
+	margin-right: 80px;
+}
+
+.grey{
+	color: grey;
+}
+
+.filtro-de-majo{
+	margin-right: 10px;
+}
+
+.filtro-de-majo{
+	margin-right: 10px;
+}
+
+.main-side-w-catalog{
+	width: 100%;
+	height: 1100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	flex-wrap: wrap;
+}
+
+.w-card,.l-box{
+	height: 28%;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 15px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.w-card:hover{
+	border: 2px dashed grey;
+}
+
+.w-card:first-child{
+	background-image: url("../img/green-w.jpg");
+}
+
+.w-card:nth-child(2){
+	background-image: url("../img/gren-w.jpg");
+}
+
+.w-card:nth-child(3){
+	background-image: url("../img/brown-w.jpg");
+}
+
+.w-card:nth-child(4){
+	background-image: url("../img/black-w.jpg");
+}
+
+.w-card:nth-child(5){
+	background-image: url("../img/gren-w-line.jpg");
+}
+
+.w-card:nth-child(6){
+	padding: 0px;
+	cursor: auto;
+	background-image: url("../img/white-w.jpg");
+}
+
+.w-card:nth-child(6):hover{
+	border: none;
+}
+
+.w-card:nth-child(7){
+	background-image: url("../img/style-w.jpg");
+}
+
+.w-card:nth-child(8){
+	background-image: url("../img/browny-w.jpg");
+}
+
+.w-card:last-child{
+	background-image: url("../img/main-w.jpg");
+}
+
+.bottom-side-w-catalog{
+	margin-top: 15px;
+	height: 18px;
+	width: 150px;
+	margin-right: 50px;
+	background-image: url("../img/slider.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sec-two{
+	height: 580px;
+}
+
+.top-side-l{
+	height: 20%;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.l-title{
+	font-family: Playfair Display;
+	font-size: 32px;
+}
+
+.link-of-all{
+	font-family: Playfair Display;
+	text-decoration: none;
+	box-sizing: border-box;
+	color: black;
+}
+
+.link-of-all:hover{
+	padding-bottom: 5px;
+	border-bottom: 2px solid;
+}
+
+.main-side-l{
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.arrow-l,.arrow-r{
+	width: 5%;
+}
+
+.l-box{
+	height: 80%;
+	width: 28%;
+}
+
+.l-box:hover{
+	border: 2px dashed grey;
+}
+
+.brown{
+	background-image: url("../img/brown-l.jpg");
+}
+
+.black{
+	background-image: url("../img/black-l.jpg");
+}
+
+.light{
+	background-image: url("../img/orange-l.jpg");
+}
+
+.footer{
+	align-items: center;
+	color: rgba(255, 255, 255, 0.75);
+	max-width: 1550px;
+	margin: 0 auto;
+	height: 275px;
+	display: flex;
+	background: #444240;
+	justify-content: space-around;
+}
+
+.footer-blocks{
+	width: 280px;
+	height: 129px;
+	display: flex;
+	flex-direction: column
+}
+
+.footer-paraphraf{
+	color: rgba(255, 255, 255, 0.75);
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.footer-logo{
+	width: 130px;
+	height: 34.017px;
+	margin-bottom: 21px;
+}
+
+.title-footer{
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	margin-bottom: 33px;
+	line-height: normal;
+	letter-spacing: 0.98px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,305 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	min-width: 1500px;
+	min-height: 1500px;
+	margin: 0px;
+}
+
+.header{
+	margin: 0 auto;
+	max-width: 1550px;
+	max-height: 105px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.top-box{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 87px;
+}
+
+.header-block{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-block:last-child{
+	display: flex;
+	width: 99px;
+	height: 21px;
+	align-items: center;
+	flex-shrink: 0;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 103px;
+	height: 26px;
+}
+
+.nav-text{
+	text-decoration: none;
+	color: #555248;
+}
+
+.list{
+	list-style-type: none;
+	margin-right: 65px;
+}
+
+.list:last-child{
+	list-style-type: none;
+	margin-right: 0px;
+}
+
+.header-icons{
+	width: 19px;
+	height: 19px;
+	flex-shrink: 0;
+}
+
+.main{
+    width: 85%;
+    margin: 0 auto;
+    max-height: 1540px;
+}
+
+.perehidnyj-block{
+	margin-top: 0px;
+	width: 384px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+}
+
+.later-arrow{
+	width: 4px;
+	height: 7px;
+	color: #BDB9B5;
+	margin-right: 13px;
+}
+
+.perehidnyj-block-a{
+	color: #B3B3B3;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin-right: 13px;
+}
+
+.mans-watch{
+	color: #555248;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.sec-one{
+    height: 800px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.left-watch{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-w{
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.watch{
+    width: 80%;
+}
+
+.bottom-watches{
+    height: 20%;
+    display: flex;
+}
+
+.watch-l{
+    width: 21%;
+}
+
+.right-watch{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    width: 100%;
+    height: 80%;
+}
+
+.top-side-tight-w,.to-box{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.to-box{
+    margin-left: 0px;
+    width: 40%;
+}
+
+.heart{
+    cursor: pointer;
+}
+
+.about:hover{
+    cursor: pointer;
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+}
+
+.button{
+    margin-top: 30px;
+    color: white;
+    background-color: #555248;
+    cursor: pointer;
+    width: 250px;
+    border: 0px solid;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.button:hover{
+    color: black;
+    background-color: #BDB9B5;
+}
+
+
+.sec-two{
+	height: 580px;
+    margin-top: 80px;
+}
+
+.top-side-l{
+	height: 20%;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.l-title{
+	font-family: Playfair Display;
+	font-size: 32px;
+    margin-left: 30px;
+}
+
+.link-of-all{
+	font-family: Playfair Display;
+	text-decoration: none;
+	box-sizing: border-box;
+	color: black;
+}
+
+.link-of-all:hover{
+	padding-bottom: 5px;
+	border-bottom: 2px solid;
+}
+
+.main-side-l{
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.arrow-l,.arrow-r{
+	width: 5%;
+}
+
+.l-box{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+	height: 80%;
+	width: 28%;
+}
+
+.l-box:hover{
+	border: 2px dashed grey;
+}
+
+.brown{
+	background-image: url("../img/brown-w.jpg");
+}
+
+.black{
+	background-image: url("../img/dark-brown-w.jpg");
+}
+
+.light{
+	background-image: url("../img/chocolate-w.jpg");
+}
+
+.footer{
+	align-items: center;
+	color: rgba(255, 255, 255, 0.75);
+	max-width: 1550px;
+	margin: 0 auto;
+	height: 275px;
+	display: flex;
+	background: #444240;
+	justify-content: space-around;
+}
+
+.footer-blocks{
+	width: 280px;
+	height: 129px;
+	display: flex;
+	flex-direction: column
+}
+
+.footer-paraphraf{
+	color: rgba(255, 255, 255, 0.75);
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.footer-logo{
+	width: 130px;
+	height: 34.017px;
+	margin-bottom: 21px;
+}
+
+.title-footer{
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	margin-bottom: 33px;
+	line-height: normal;
+	letter-spacing: 0.98px;
+	text-transform: uppercase;
+}
